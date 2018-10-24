@@ -1,0 +1,250 @@
+html,body{height: 100%;}
+body{background:#fff}
+body,p,form,ul,li,div,span,dl,dt,dd,h1,h2,h3,h4,h5,h6,td,th{margin:0; padding:0; font:16px 'Microsoft YaHei', 'Microsoft YaHei UI', 'WenQuanYi Micro Hei', Arial; }
+h1,h2,h3,h4,h5,h6,th{font-weight: normal;}
+ul,li{list-style:none}
+a{text-decoration: none;}
+img{border:0;}
+input{border:0;padding:0;background:transparent;}
+.color6{color: #666;}
+.color9{color: #999;}
+.oh{overflow: hidden;}
+.float-left{float: left;}
+.float-right{float: right;}
+
+.margin-bottom10{margin-bottom: 10px;}
+.margin-top10{margin-top: 10px;}
+.margin-left10{margin-left: 10px;}
+.margin-right10{margin-right: 10px;}
+.padding10{padding:10px ;}
+
+
+.border-bottom{border-bottom: 1px solid #e8e8e8;}
+
+.but-yes{width: 110px;line-height: 32px;color: #fff;background: #e7641c;font-size: 14px;cursor: pointer;border: 0;display: inline-block;text-align: center;}
+.but-no{width: 110px;line-height: 32px;color: #fff;background: #949496;font-size: 14px;cursor: pointer;border: 0;display: inline-block;text-align: center;}
+.but-style{width: 184px;height: 30px;border: 1px solid #6e6e6e;padding: 0 8px;}
+
+.wrap{width: 100%; overflow: hidden;}
+.borderB{border-bottom: 1px solid #eee;}
+.myWrap{width: 100%; height:100%; position: relative; background: #f4f4f4;}
+.leftSide{width: 96px; background: #444; height: 100%; position: fixed; top: 0; bottom: 0; left: 0; z-index: 1;}
+.leftSide .headImg{padding:20px;text-align: center;}
+.leftSide .headImg img{width: 54px; height: 54px; overflow: hidden; border: 1px solid #fff; border-radius: 50%;}
+.nav>li{padding-bottom: 6px;}
+.nav>li>a{display: block; line-height: 44px; color: #fff; }
+.nav>li i{display: inline-block; width: 26px; height: 32px; background: url(../images/nva_icon.png) no-repeat; vertical-align: -10px;}
+.nav .active a{background: #fff; color: #6f6e6e;}
+.nav .active i{background-image: url(../images/nva_icon_active.png)}
+.nav>li:nth-child(1) i{background-position: 0 0;}
+.nav>li:nth-child(2) i{background-position: 0 -163px;}
+.nav>li:nth-child(3) i{background-position: 0 -66px;}
+.nav>li:nth-child(4) i{background-position: 0 -99px;}
+.nav>li:nth-child(5) i{background-position: 0 -190px;}
+.nav>li:nth-child(6) i{background-position: 0 -33px;}
+.nav>li:nth-child(7) i{background-position: 0 -132px;}
+.nav ul{background: #fff; display: none;}
+.nav .active ul{display: block;}
+.nav ul li{text-align: center; font-size: 14px; padding-bottom: 6px;}
+.nav ul li a{color: #444; display: block; line-height: 26px;}
+.nav ul li a:hover,.nav ul li.active a{color: #fff; background: #6f6e6e;}
+.rightCon{padding-left: 104px; /*min-width: 1096px;*/color:#3f3e3e}
+.rightCon .wrap{background: #fff;}
+.rightCon h2{border-bottom: 1px solid #eee; height: 36px; line-height: 30px; padding:4px 0 0 24px;}
+.rightCon h2 span{color: #3f3e3e; border-bottom: 3px solid #e7641c; display: inline-block; padding:0 2px; font-size: 16px; line-height: 34px;}
+.headR{width: 214px;line-height:32px;color: #fff;background:#949496;font-size: 16px;display: inline-block; }
+.headRightButton{float: right;}
+.headRightButton a{display: inline-block; width: 90px; height: 30px; line-height: 30px; color: #3f3e3e; margin-left: 20px; text-align: center;}
+.headRightButton a:last-child{background:#e7641c; color: #fff;}
+.statusTab{border-bottom: 1px solid #eee; height: 36px; padding:4px 0 0 24px;}
+.statusTab span{color: #3f3e3e;  display: inline-block; padding:0 2px; font-size: 16px; line-height: 34px; margin-right: 44px; cursor: pointer;}
+.statusTab span.active{border-bottom: 3px solid #e7641c;}
+.statusTab .search{float: right; width: 218px; background: url(../images/search_w.png) no-repeat right center #a8a7a7; padding:0 40px 0 10px; margin-top: 2px;}
+.statusTab .search input{color: #fff; font-size: 16px; height: 28px;}
+.tabBox>div{display: none;}
+.tabBox>div.active{display: block;}
+.rightCon h3{font-size: 18px; color: #3f3e3e; padding-bottom: 10px;}
+.rightCon h4{font-size: 18px; color: #e7641c; padding-bottom: 10px;}
+.rightCon .box{border-bottom: 1px solid #eee; padding:24px; overflow: hidden;}
+.statisNum{width: 160px; background: url(../images/statisNum_bg.png) no-repeat; color: #fff; text-align: center; float: left; margin: 0 66px 24px 0;}
+.statisNum div:nth-child(1){line-height: 56px; height: 56px;}
+.statisNum div:nth-child(2){line-height: 46px; height: 46px;}
+.statisNum b{font-size: 24px;}
+.turnoverWrap .statisNum{margin: 0 40px 24px 40px;}
+.rightCon .form th{text-align: left; vertical-align: text-top; line-height: 32px;}
+.rightCon .form .rightTh th{text-align: right;}
+.rightCon .form td{padding-bottom: 18px; color: #9a9b9a;}
+.rightCon .form input[type=text],.rightCon .form input[type=password],.rightCon .form input[type=button],.rightCon .form select{width: 184px; height: 30px; border:1px solid #6e6e6e; padding:0 8px; margin-right: 14px;}
+.rightCon .form input[type=button]{border:0;}
+.rightCon .form .area select{width: 112px;}
+.rightCon .form .fileUpload{position: relative; display: inline-block; width: 100px; height: 100px; background: url(../images/file_icon_03.png); float: left;    background-size: 100px;}
+.rightCon .form .fileUpload input{position: absolute; opacity: 0;}
+.rightCon .form .fileResult{overflow: hidden;}
+.rightCon .form .fileResult span{float: left; display: inline-block; width: 100px; height: 100px; overflow: hidden; margin: 0 12px 12px 0; background: #f2f2f2}
+.rightCon .form .oneFileResult span{width: auto; height: auto;}
+.rightCon .form li{padding-bottom: 18px;}
+.rightCon .form li input[type=password]{width: 284px;}
+.rightCon .form .identNumber input{margin-right: 24px;}
+.rightCon .form .identNumber input[type=text]{width: 186px;}
+.rightCon .form .identNumber input[type=button]{width: 100px; color: #e7641c; border:1px solid #e7641c; font-size: 16px;}
+.rightCon .form .identNumber span{display: inline-block; width: 60px; height: 28px; line-height: 28px; text-align: center; border:1px solid #6e6e6e;}
+.rightCon .form .noempty{color: #da141d; font-weight: normal; vertical-align: -2px; margin:0 4px;}
+.rightCon .form .tip{color: #cd0e0e; font-size: 14px;}
+.rightCon .form textarea{width: 640px; height: 160px; border:1px solid #6e6e6e; padding:8px; line-height: 20px; resize:none;}
+.rightCon .form .textCount{position: relative; width: 660px; height: 180px;}
+.rightCon .form .textCountNum{position: relative; left: 605px;bottom: 18px; font-size:12px;}
+.rightCon .form .textCountNum i{font-style: normal;}
+.rightCon .form .stock{margin-left: 20px;}
+.rightCon .form .stock i{font-style: normal; display: inline-block; padding:0 8px; color: #fff; background: #e7641c; margin:0 4px; font-size: 14px;}
+.rightCon .form label.radio,.rightCon .form label.checkbox{line-height: 32px; color: #3f3e3e;}
+.rightCon .form label.radio input,.rightCon .form label.checkbox input{margin-right: 10px;}
+.rightCon .form .addButton input{width: 126px; color: #fff; background: #e7641c; cursor: pointer;}
+.rightCon .goodsTable{width: 100%; margin:6px 0 10px; border-collapse: collapse;}
+.rightCon .goodsTable td,.rightCon .goodsTable th{text-align: center;}
+.rightCon .goodsTable td:nth-child(2){text-align: left;}
+.rightCon .goodsTable td{color: #3f3e3e; border-bottom:1px solid #eee; padding:10px;}
+.rightCon .goodsTable th{line-height: 56px; background: #e8e7e7; padding:0 10px;}
+.rightCon .goodsTable dl{font-size: 14px; position: relative;}
+.rightCon .goodsTable dt,.rightCon .goodsTable dd{float: left;}
+.rightCon .goodsTable dt{margin-right: 20px; width: 72px; height: 72px; overflow: hidden; border:1px solid #eee;}
+.rightCon .goodsTable dt img{width: 72px;}.rightCon .goodsTable dd{padding-top: 8px;}
+.rightCon .goodsTable dd p{line-height: 30px;}
+.rightCon .goodsTable dd p:last-child,.rightCon .goodsTable a{color: #e7641c}
+.rightCon .goodsTable .gift{display: inline-block; line-height: 22px; background: #e41e2c; color: #fff; border-radius: 11px; padding:0 6px; font-size: 12px; position: absolute; left:272px; top: 12px}
+.rightCon .goodsTable a{margin:0 6px; display: inline-block;}
+.rightCon .goodsTable a:hover{text-decoration: underline; }
+.rightCon .goodsTable a.black{color: #3f3e3e}
+.rightCon .goodsTable a.red{color: #cd111e}
+.rightCon .goodsTable .allOperation a{margin:0 40px;}
+.rightCon .presentTable{width: 700px;}
+.rightCon .presentTable td{font-size: 14px;}
+.rightCon .presentTable dl{font-size: 16px;}
+.rightCon .presentTable .deleteThis{display: inline-block; width: 72px; line-height: 28px; color: #fff; background: #e63939;}
+.rightCon .presentTable .deleteThis:hover{text-decoration: none;}
+.rightCon .orderTable td:nth-child(2){}
+.rightCon .orderTable .orderNum{color: #fe5c03; padding-bottom: 6px;}
+.rightCon .orderTable dt{width: 48px; height: 48px; margin-right: 8px;}
+.rightCon .orderTable dt img{width: 48px;}
+.rightCon .orderTable dd{padding:0;}
+.rightCon .orderTable p,.rightCon .orderTable dd p,.rightCon .orderTable dd p:last-child{line-height: 18px; font-size: 14px;}
+.rightCon .orderTable dd p,.rightCon .orderTable dd p:last-child{color: #888;}
+.rightCon .orderTable dd p:first-child{color: #484747}
+.rightCon .fundTable td{color: #939292; font-size: 14px;}
+.rightCon .enchashTable p{font-size: 14px;}
+.rightCon .enchashTable td:last-child{color: #e7641c}
+.rightCon .orderDetail .box{padding:14px 24px;}
+.rightCon .orderDetail h5{font-size: 16px;}
+.rightCon .orderDetail p,.rightCon .orderDetail td{line-height: 24px; color: #8a8989; padding:0; font-size: 14px;}
+.rightCon .orderDetail p span{margin-right: 24px;}
+.rightCon .orderDetail p span.img{margin:8px 16px 8px 0; display: inline-block; width: 100px; height: 100px; overflow: hidden;}
+.rightCon .orderDetail p img{width: 100px;}
+.rightCon .orderDetail .price{color: #3f3e3e; font-size: 16px;}
+.rightCon .orderDetail .status,.rightCon .orderDetail .price span{color: #e7641c; margin-right: 6px;}
+.rightCon .orderDetail .button{display: inline-block; padding:0 4px; height: 32px; line-height: 30px; color: #fff; background: #e7641c; font-size: 14px; cursor: pointer;}
+.rightCon .orderStep{padding-left: 50px; background: url(../images/order_step_03.png) no-repeat 50px center; overflow: hidden; width: 740px;}
+.rightCon .orderStep dl{float: left; text-align: center; width: 220px;}
+.rightCon .orderStep dl:first-child{text-align: left; width: 146px;}
+.rightCon .orderStep dl:last-child{text-align: right; width: 146px;}
+.rightCon .orderStep dt,.rightCon .orderStep dd{line-height: 48px;}
+.rightCon .orderStep dd{font-size: 14px;}
+.rightCon .footPage{padding:30px 0 100px 24px; line-height: 28px; overflow: hidden;}
+.rightCon .footPage p{color: #959393; float: left;}
+.rightCon .pageLink{float: right;}
+.rightCon .pageLink li{float: left; margin:0 6px; text-align: center; font-size: 14px;}
+.rightCon .pageLink li a{color: #3f3e3e; display: inline-block; width: 28px; border:1px solid #707070; line-height: 26px;}
+.rightCon .pageLink li:first-child a,.rightCon .pageLink li:last-child a{width: 74px;}
+.rightCon .pageLink li a:hover{color: #e7641c; border-color: #e7641c;}
+.rightCon .pageLink li>span{display: inline-block;color: #e7641c; border-color: #e7641c; width: 28px; border:1px solid #707070; line-height: 26px;}
+.rightCon .pageLink .disabled>span{width: 74px;color: #dddddd;border-color: #dddddd;cursor: not-allowed;}
+.searchForm table{width: 100%;}
+.searchForm th,.searchForm td{height: 52px; border-bottom: 1px solid #eee;}
+.searchForm th{text-align: right; width: 110px;}
+.searchForm input[type=text],.searchForm select{width: 184px; height: 30px; border:1px solid #6e6e6e; padding:0 8px;}
+.searchForm .inputGroup input{width: 80px;}
+.searchForm .inputGroup input:first-child{margin-right: 5px;}
+.searchForm .inputGroup input:last-child{margin-left: 5px;}
+.searchForm .buttonGroup{padding:15px 24px;}
+.searchForm .buttonGroup input{width: 98px; height: 32px; color: #fff; background: #e7641c; font-size: 14px; cursor: pointer; border:0; margin-right: 28px;}
+.searchForm .buttonGroup .gray{background: #949496}
+.rightCon .footButton{padding:90px 0; text-align: center;}
+.rightCon .footButton input{width: 214px; height: 32px; color: #fff; background: #e7641c; font-size: 16px; cursor: pointer; border:0; margin:0 12px;}
+.rightCon .footButton .back,.rightCon .form .footButton .back{width: 98px; background: #949496}
+.rightCon .footButton .save,.rightCon .form .footButton .save{width: 98px; background: #06bf04}
+.rightCon .footButton .button,.rightCon .form .footButton .button{width: 98px;}
+.rightCon .turnoverWrap .footButton{padding-top: 50px; padding-left: 420px; text-align: left;}
+.rightCon .turnoverWrap .footButton .save{width: 160px; height: 30px; font-size: 14px;}
+.rightCon .orderImportStep{border-bottom: 1px solid #eee; padding: 76px 0 30px;}
+.rightCon .orderImportStep ul{padding-left: 40px; width: 310px; margin:0 auto; background: url(../images/order_import_03.png) no-repeat;}
+.rightCon .orderImportStep li{width: 310px; line-height: 26px; border-radius: 16px; color: #292928; font-size: 18px; text-align: center; margin-bottom: 47px;}
+.rightCon .orderImportStep li:nth-child(1){border:3px solid #b0d561;}
+.rightCon .orderImportStep li:nth-child(2){border:3px solid #fecb44;}
+.rightCon .orderImportStep li:nth-child(3){border:3px solid #f88648;}
+.rightCon .orderImportStep li.do{color: #fff;}
+.rightCon .orderImportStep li.do:nth-child(1){background: #b0d561;}
+.rightCon .orderImportStep li.do:nth-child(2){background: #fecb44;}
+.rightCon .orderImportStep li.do:nth-child(3){background: #f88648;}
+.rightCon .orderImportButton{width: 316px; margin:0 auto; padding:44px 0;}
+.rightCon .orderImportButton input,.rightCon .orderImportButton .file{color: #fff; background: #fe5c03; width: 316px; height: 36px; line-height: 36px; text-align: center; font-size: 18px; margin-bottom: 20px; cursor: pointer;}
+.rightCon .orderImportButton input.back{background: #949496}
+.rightCon .orderImportButton .file{position: relative; display: block;}
+.rightCon .orderImportButton .file input{position: absolute; opacity: 0;}
+.rightCon .orderImportButton .fileName{text-align: center; padding: 70px 0 20px; background: url(../images/order_import_07.png) no-repeat center top;}
+.login .header{width: 100%; background: #fff}
+.loginWrap{width: 1200px; margin:0 auto; background: #fff}
+.loginCon{width: 100%; min-width: 1200px; background: url(../images/login_bg.jpg) no-repeat center top #fff; height: 750px; overflow: hidden;}
+.loginBox{width: 300px; margin-top: 110px; background: #fff; float: right; padding:42px 65px; text-align: center;}
+.loginBox .headImg{width: 106px; height: 106px; overflow: hidden; border:2px solid #e86d29; border-radius: 50%; margin:0 auto 24px;}
+.loginBox .headImg img{width: 106px;}
+.loginBox label{display: block; text-align: left; height: 41px; margin-bottom: 28px;}
+.loginBox label.user{background: url(../images/login_icon_07.png) no-repeat;}
+.loginBox label.password{background: url(../images/login_icon_10.png) no-repeat;}
+.loginBox label input{padding:0 10px 0 51px; width: 236px; height: 40px; font-size: 14px; border:1px solid #acacaf;}
+.loginBox label input:focus{border-color: #e86d29}
+.loginBox input[type=button]{width: 100%; height: 43px; background: #fe5c03; color: #fff; font-weight: bold; cursor: pointer;}
+.loginLink{text-align: right; padding-top: 22px;}
+.loginLink a{color: #79797b; font-size: 14px; margin-left: 26px;}
+.loginLink a:hover{color: #e7641c;}
+.forgetPassword{margin: 190px auto; padding-left: 100px; width: 428px; font-size: 14px; color: #444;}
+.forgetPassword p{background: url(../images/warning_icon_03.png) no-repeat; padding-left: 24px; line-height: 16px;}
+.forgetPassword p span{color: #e7641c;}
+.forgetPassword input{margin-top: 16px; width: 310px; padding:0 8px; border:1px solid #6e6e6e; height: 28px;}
+.forgetPassword input[type=submit]{width: 328px; background: #fe5c03; color: #fff; font-weight: bold; border:0; height: 36px; cursor: pointer;}
+.forgetPassword .identNumber input[type=text]{width: 180px}
+.forgetPassword .identNumber input[type=button]{width: 104px; background: #fe5c03; color: #fff; height: 30px; border:0; margin:0 26px; cursor: pointer;}
+.forgetPassword .identNumber input[type=button]:disabled{background: #777;}
+.forgetPassword .identNumber span{display: inline-block; width: 70px; height: 28px; line-height: 28px; text-align: center; border:1px solid #e86d29; color: #fe5c03}
+.forgetPassword input:focus{border-color: #e86d29}
+.popupBg{position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 1000; background: rgba(0,0,0,.6);}
+.popupWrap{position: fixed; top: 50%; left: 50%; z-index: 1001; width: 640px; margin-left: -320px; background: #fff; font-size: 18px;}
+.popupWrap .title{height: 48px; line-height: 48px; background: #e7641c; padding-left: 18px; margin-bottom: 30px;}
+.popupWrap .title b{color: #fff; border-left: 2px solid #fff; color: #fff; padding-left: 5px;}
+.popupWrap table{margin:0 auto; width: 400px;}
+.popupWrap th,.popupWrap td{border-bottom:1px solid #eee; line-height: 44px;}
+.popupWrap th{vertical-align: text-top; color: #474646; text-align: right;}
+.popupWrap td{color: #969595;}
+.popupWrap input[type=text],.popupWrap select{width: 184px; height: 30px; border:1px solid #6e6e6e; padding:0 8px; margin-right: 14px;}
+.popupWrap .stock span{font-style: normal; display: inline-block; padding:0 8px; color: #fff; background: #e7641c; margin:0 4px; font-size: 14px; line-height: normal;}
+.popupWrap .price{color: #e7641c}
+.popupWrap .buttonGroup{text-align: center; padding:30px 0;}
+.popupWrap .buttonGroup input{margin:0 34px; width: 112px; height: 40px; color: #fff; background: #e7641c; text-align: center; font-size: 18px; cursor: pointer;}
+.popupWrap .buttonGroup input.cancel{background: #949496}
+.confirmWrap h2{line-height: 20px; background: url(../images/confirm_title_bg_03.png) no-repeat center; text-align: center; font-size: 20px; font-weight: bold; color: #6f6e6e; padding:16px 0;}
+.confirmWrap h2.red{color: #e71329; font-weight: normal;}
+.confirmWrap p{width: 300px; margin: 0 auto; color: #6f6e6e;}
+.confirmWrap p.textC{text-align: center;}
+.confirmWrap .failBox{width: 518px; margin:0 auto; font-size: 14px; color: #6f6e6e;}
+.confirmWrap .failBox p{width: auto; padding-bottom: 10px;}
+.confirmWrap .failBox .scroll{line-height: 22px; border:1px solid #9a9b9a; width: 516px; height: 120px; padding:2px 8px; overflow-y: scroll}
+.popupWrap .enchashAccountForm{width: 430px; padding-left: 110px; margin:0 auto;}
+.popupWrap .enchashAccountForm dl{overflow: hidden; padding:7px;}
+.popupWrap .enchashAccountForm dt,.popupWrap .enchashAccountForm dd{float: left; line-height: 32px;}
+.popupWrap .enchashAccountForm select{width: 200px;}
+.popupWrap .enchashAccountForm dd input[type=button]{width: 90px; height: 30px; color: #e7641c; border:1px solid #e7641c; cursor: pointer;}
+.popupWrap p.warning{font-size: 14px; color: #c61818; padding-bottom: 6px;}
+.popupBg,.popupWrap{display: none;}
+.statusTab span a{display: inline-block;line-height: 34px;padding: 0 2px;color:#3f3e3e}
+/*by shiyuntao*/
+#send{font-size:12px;border:none;color:white;background: #fe5c03;}
+#send:disabled{background: #777;}
+.Validform_wrong{color: red; background: url(http://store.yyg.com/images/error.png) no-repeat left center;padding-left: 20px;}
+.Validform_right{display: none;}

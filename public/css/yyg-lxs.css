@@ -1,0 +1,252 @@
+html,body{height: 100%;}
+body{background:#fff;}
+body,p,form,ul,li,div,span,dl,dt,dd,h1,h2,h3,h4,h5,h6,td,th,input,select,textarea{margin:0; padding:0; font:16px 'Microsoft YaHei', 'Microsoft YaHei UI', 'WenQuanYi Micro Hei', Arial; }
+h1,h2,h3,h4,h5,h6,th{font-weight: normal;}
+ul,li{list-style:none}
+a{text-decoration: none;}
+img{border:0;}
+input{border:0;padding:0;background:transparent;}
+
+.wrap{width: 100%; overflow: hidden;}
+.borderB{border-bottom: 1px solid #eee;}
+.myWrap{width: 100%; height:100%; position: relative; background: #f4f4f4;}
+.leftSide{width: 96px; background: #444; height: 100%; position: fixed; top: 0; bottom: 0; left: 0; z-index: 1;}
+.leftSide .headImg{padding:20px;}
+.leftSide .headImg span{display: block; width: 54px; height: 54px; overflow: hidden; border: 1px solid #fff; border-radius: 50%;}
+.leftSide .headImg img{width: 54px;}
+.nav>li{padding-bottom: 6px;}
+.nav>li>a{display: block; line-height: 44px; color: #fff; }
+.nav>li i{display: inline-block; width: 26px; height: 32px; background: url(../images/nva_icon.png) no-repeat; vertical-align: -10px;}
+.nav .active a{background: #fff; color: #6f6e6e;}
+.nav .active i{background-image: url(../images/nva_icon_active.png)}
+.nav>li:nth-child(1) i{background-position: 0 0;}
+.nav>li:nth-child(2) i{background-position: 0 -66px;}
+.nav>li:nth-child(3) i{background-position: 0 -99px;}
+.nav>li:nth-child(4) i{background-position: 0 -132px;}
+.nav ul{background: #fff; display: none;}
+.nav .active ul{display: block;}
+.nav ul li{text-align: center; font-size: 14px; padding-bottom: 6px;}
+.nav ul li a{color: #444; display: block; line-height: 26px;}
+.nav ul li a:hover,.nav ul li.active a{color: #fff; background: #6f6e6e;}
+.rightCon{padding-left: 104px;/* min-width: 1040px;*/ color:#3f3e3e}
+.rightCon .wrap{background: #fff;}
+.rightCon h2{border-bottom: 1px solid #eee; height: 36px; line-height: 30px; padding:4px 0 0 24px;}
+.rightCon h2 span{color: #3f3e3e; border-bottom: 3px solid #e7641c; display: inline-block; padding:0 2px; font-size: 16px; line-height: 34px;}
+.headR{float: right; color: #e7641c; margin-right: 20px; font-size: 16px;}
+.headRightButton{float: right; line-height: 26px;}
+.headRightButton a{display: inline-block; width: 90px; height: 30px; line-height: 30px; color: #3f3e3e; margin-left: 20px; text-align: center; font-size: 16px;}
+.headRightButton a.apply{background:#e7641c; color: #fff;}
+.headRightButton a.add{display: inline-block; color: #e7641c; padding-left: 18px; background: url(../images/add_icon.png) no-repeat left center; margin-left: 50px;}
+.headRightButton .search{width: 144px; background: url(../images/search_b.png) no-repeat right center; padding:0 40px 0 10px; margin-top: 2px; border:1px solid #626262; display: inline-block;}
+.headRightButton .search input{font-size: 14px; height: 26px; width: 100%}
+.statusTab{border-bottom: 1px solid #eee; height: 36px; padding:4px 0 0 24px;}
+.statusTab span{color: #3f3e3e;  display: inline-block; padding:0 2px; font-size: 16px; line-height: 34px; margin-right: 44px; cursor: pointer;}
+.statusTab span.active{border-bottom: 3px solid #e7641c;}
+.tabBox>div{display: none;}
+.tabBox>div.active{display: block;}
+.rightCon h3{font-size: 18px; color: #3f3e3e; padding-bottom: 10px;}
+.rightCon h4{color: #e7641c; padding-bottom: 10px;}
+.rightCon h6{color: #e7641c; padding:12px 24px;}
+.rightCon .box{border-bottom: 1px solid #eee; padding:24px; overflow: hidden;}
+.statisNum{width: 160px; background: url(../images/statisNum_bg.png) no-repeat; color: #fff; text-align: center; float: left; margin: 0 66px 24px 0;}
+.statisNum div:nth-child(1){line-height: 56px; height: 56px;}
+.statisNum div:nth-child(2){line-height: 46px; height: 46px;}
+.statisNum b{font-size: 24px;}
+.turnoverWrap .statisNum{margin: 0 40px 24px 40px;}
+.rightCon .form th{text-align: left; vertical-align: text-top; line-height: 32px;}
+.rightCon .form .rightTh th{text-align: right;}
+.rightCon .form td{padding-bottom: 18px; color: #9a9b9a; font-size: 14px;}
+.rightCon .form input[type=text],.rightCon .form input[type=password],.rightCon .form select{width: 184px; height: 30px; border:1px solid #6e6e6e; padding:0 8px; margin-right: 14px; font-size: 14px; color: #9a9b9a}
+.rightCon .form input[type=button]{width: 184px; height: 30px; font-size: 14px;}
+.rightCon .form .area select{width: 112px;}
+.rightCon .form .fileUpload{position: relative; display: inline-block; width: 150px; height: 150px; background: url(../images/file_icon_03.png); float: left;}
+.rightCon .form .fileUpload input{position: absolute; opacity: 0;}
+.rightCon .form .fileResult{overflow: hidden;}
+.rightCon .form .fileResult span{float: left; display: inline-block; width: 100px; height: 100px; overflow: hidden; margin: 0 12px 12px 0; background: #f2f2f2}
+.rightCon .form .oneFileResult{display: inline-block; float: left;}
+.rightCon .form .oneFileResult span{width: auto; height: auto;}
+.rightCon .form li{padding-bottom: 18px;}
+.rightCon .form li input[type=password]{width: 284px;}
+.rightCon .form .identNumber input{margin-right: 24px;}
+.rightCon .form .identNumber input[type=text]{width: 186px;}
+.rightCon .form .identNumber input[type=button]{width: 100px; color: #e7641c; border:1px solid #e7641c; font-size: 16px;}
+.rightCon .form .identNumber span{display: inline-block; width: 60px; height: 28px; line-height: 28px; text-align: center; border:1px solid #6e6e6e;}
+.rightCon .form .noempty{color: #da141d; font-weight: normal; vertical-align: -2px; margin:0 4px;}
+.rightCon .form .tip{color: #e7641c; font-size: 14px;}
+.rightCon .form textarea{width: 640px; height: 160px; border:1px solid #6e6e6e; padding:8px; line-height: 20px; resize:none;}
+.rightCon .form .textCount{position: relative; width: 660px; height: 180px;}
+.rightCon .form .textCountNum{position: absolute; right: 20px; bottom: 10px; font-size:12px;}
+.rightCon .form .textCountNum i{font-style: normal;}
+.rightCon .form .stock{margin-left: 20px;}
+.rightCon .form .stock i{font-style: normal; display: inline-block; padding:0 8px; color: #fff; background: #e7641c; margin:0 4px; font-size: 14px;}
+.rightCon .form label.radio,.rightCon .form label.checkbox{line-height: 32px; color: #3f3e3e;}
+.rightCon .form label.radio input,.rightCon .form label.checkbox input{margin-right: 10px;}
+.rightCon .form .addButton input{width: 126px; color: #fff; background: #e7641c; cursor: pointer;}
+.rightCon .otherFormLink{padding:14px 24px; border-bottom: 1px solid #eee; color: #e7641c; line-height: 30px; background: url(../images/right_arrow.png) no-repeat 100px center;}
+.rightCon .otherFormLink a{display: inline-block; color: #fff; width: 96px; text-align: center; background: #e7641c; float: right; margin-left: 12px;}
+.rightCon .otherFormLink .status{display: inline-block; float: right; border:1px solid #e7641c; color: #e7641c; padding:0 10px; line-height: 28px;}
+.rightCon .form .pass{display: inline-block; width: 21px; height: 21px; background: url(../images/pass_icon.png) no-repeat; vertical-align: -4px;}
+.rightCon .detailTable,.rightCon .detailTable table{width: 100%; border-collapse: collapse; }
+.rightCon .detailTable td,.rightCon .detailTable th{text-align: center;}
+.rightCon .detailTable th{height: 56px; background: #e8e7e7; padding:0 10px;}
+.rightCon .detailTable td{color: #939292; font-size: 14px; border-bottom:1px solid #eee; padding:10px;}
+.rightCon .detailTable td p{font-size: 14px;}
+.rightCon .detailTable a{color: #e7641c}
+.rightCon .detailTable a{margin:0 6px; display: inline-block;}
+.rightCon .detailTable a:hover{text-decoration: underline; }
+.rightCon .detailTable a.black{color: #3f3e3e}
+.rightCon .detailTable a.red{color: #cd111e}
+.rightCon .detailTable .allOperation a{margin:0 40px;}
+.rightCon .tourTable,.rightCon .tourTable table{table-layout: fixed;}
+.rightCon .detailTable .secondTable{display: none;}
+.rightCon .detailTable .secondTable>td{padding:0; border:0; }
+/*.rightCon .tourTable td:nth-child(2){text-align: left;}*/
+.rightCon .tourTable .button{display: inline-block; padding:0 6px; height: 26px; line-height: 26px; color: #fff; background: #e7641c; font-size: 14px; cursor: pointer; margin:4px 0;}
+.rightCon .tourTable .button:hover{text-decoration: none;}
+.rightCon .showSecondTable{display: inline-block; padding-right: 20px; background: url(../images/on_icon.png) no-repeat right center;}
+.rightCon .showSecondTable.on{background-image: url(../images/off_icon.png);}
+.rightCon .guideDetail{padding:12px 24px;}
+.rightCon .guideDetail dl,.rightCon .guideDetail dt,.rightCon .guideDetail dd{float: left; line-height: 32px;}
+.rightCon .guideDetail dl{width: 390px;}
+.rightCon .guideDetail dt{color: #3f3e3e}
+.rightCon .guideDetail dd{color: #7b7977}
+.rightCon .enchashTable p{font-size: 14px;}
+.rightCon .enchashTable td:last-child{color: #e7641c}
+.rightCon .orderDetail .box{padding:14px 24px;}
+.rightCon .orderDetail h5{font-size: 16px; color: #e7641c}
+.rightCon .orderDetail p,.rightCon .orderDetail td{line-height: 24px; color: #8a8989; padding:0; font-size: 14px;}
+.rightCon .orderDetail p span{margin-right: 24px; font-size: 14px;}
+.rightCon .orderDetail .button{display: inline-block; padding:0 4px; height: 32px; line-height: 30px; color: #fff; background: #e7641c; font-size: 14px; cursor: pointer;}
+.rightCon .orderDetail th{color: #e7641c}
+.rightCon .orderStep{padding-left: 50px; background: url(../images/order_step_03.png) no-repeat 50px center; overflow: hidden; width: 740px;}
+.rightCon .orderStep dl{float: left; text-align: center; width: 220px;}
+.rightCon .orderStep dl:first-child{text-align: left; width: 146px;}
+.rightCon .orderStep dl:last-child{text-align: right; width: 146px;}
+.rightCon .orderStep dt,.rightCon .orderStep dd{line-height: 48px;}
+.rightCon .orderStep dd{font-size: 14px;}
+.rightCon .enchashForm th,.rightCon .enchashForm td{padding-bottom: 16px;}
+.rightCon .enchashForm input[type=text]{width: 225px;}
+.rightCon .enchashForm input[type=button]{width: 90px;}
+.rightCon .enchashForm input.send{border:1px solid #e7641c; background: none; color: #e7641c; cursor: pointer;}
+.rightCon .footPage{padding:30px 0 100px 24px; line-height: 28px; overflow: hidden;}
+.rightCon .footPage p{color: #959393; float: left;}
+.rightCon .pageLink{float: right;}
+.rightCon .pageLink li{float: left; margin:0 6px; text-align: center; font-size: 14px;}
+.rightCon .pageLink li a{color: #3f3e3e; display: inline-block; width: 28px; border:1px solid #707070; line-height: 26px;}
+.rightCon .pageLink li:first-child a,.rightCon .pageLink li:last-child a{width: 74px;}
+.rightCon .pageLink li a:hover{color: #e7641c; border-color: #e7641c;}
+.searchForm table{width: 100%;}
+.searchForm th,.searchForm td{height: 40px; border-bottom: 1px solid #eee;}
+.searchForm th{text-align: right; width: 110px;}
+.searchForm input[type=text],.searchForm select{width: 160px; height: 26px; border:1px solid #6e6e6e; padding:0 8px; font-size: 14px; color: #6f6e6e}
+.searchForm .inputGroup input{width:140px;}
+.searchForm .inputGroup input:first-child{margin-right: 5px;}
+.searchForm .inputGroup input:last-child{margin-left: 5px;}
+.searchForm .buttonGroup{padding:12px 24px;}
+.searchForm .buttonGroup input{width: 98px; height: 30px; color: #fff; background: #e7641c; font-size: 14px; cursor: pointer; border:0; margin-right: 28px;}
+.searchForm .buttonGroup .gray{background: #949496}
+.rightCon .footButton{padding:90px 0; text-align: center;}
+.rightCon .footButton input[type=button],.rightCon .footButton input[type=submit]{width: 140px; height: 32px; color: #fff; background: #e7641c; font-size: 14px; cursor: pointer; border:0; margin:0 12px;}
+.rightCon .footButton .back,.rightCon .footButton input.back,.rightCon .form .footButton .back{width: 98px; background: #949496}
+.rightCon .footButton .save,.rightCon .footButton input.save,.rightCon .form .footButton .save{width: 98px; background: #06bf04}
+.rightCon .footButton .button,.rightCon .footButton input.button,.rightCon .form .footButton .button{width: 98px;}
+.rightCon .turnoverWrap .footButton{padding-top: 50px; padding-left: 420px; text-align: left;}
+.rightCon .turnoverWrap .footButton .save{width: 160px; height: 30px; font-size: 14px;}
+.rightCon .orderImportStep{border-bottom: 1px solid #eee; padding: 76px 0 30px;}
+.rightCon .orderImportStep ul{padding-left: 40px; width: 310px; margin:0 auto; background: url(../images/order_import_03.png) no-repeat;}
+.rightCon .orderImportStep li{width: 310px; line-height: 26px; border-radius: 16px; color: #292928; font-size: 18px; text-align: center; margin-bottom: 47px;}
+.rightCon .orderImportStep li:nth-child(1){border:3px solid #b0d561;}
+.rightCon .orderImportStep li:nth-child(2){border:3px solid #fecb44;}
+.rightCon .orderImportStep li:nth-child(3){border:3px solid #f88648;}
+.rightCon .orderImportStep li.do{color: #fff;}
+.rightCon .orderImportStep li.do:nth-child(1){background: #b0d561;}
+.rightCon .orderImportStep li.do:nth-child(2){background: #fecb44;}
+.rightCon .orderImportStep li.do:nth-child(3){background: #f88648;}
+.rightCon .orderImportButton{width: 316px; margin:0 auto; padding:44px 0;}
+.rightCon .orderImportButton input,.rightCon .orderImportButton .file{color: #fff; background: #fe5c03; width: 316px; height: 36px; line-height: 36px; text-align: center; font-size: 18px; margin-bottom: 20px; cursor: pointer;}
+.rightCon .orderImportButton input.green{background: #b9de6a}
+.rightCon .orderImportButton input.back{background: #949496}
+.rightCon .orderImportButton .file{position: relative; display: block; background: #fecb44}
+.rightCon .orderImportButton .file input{position: absolute; opacity: 0;}
+.rightCon .orderImportButton .fileName{text-align: center; padding: 70px 0 20px; background: url(../images/order_import_07.png) no-repeat center top;}
+.rightCon .orderImportButton .fileInfo label{display: block; width: 316px; overflow: hidden;}
+.rightCon .orderImportButton .fileInfo input,.rightCon .orderImportButton .fileInfo select{width: 180px; height: 28px; border:1px solid #6e6e6e; padding:0 8px; font-size: 14px; color: #9a9b9a; float: right; background: #fff;}
+.rightCon .orderImportButton .fileInfo select{width: 198px; height: 30px; margin-bottom: 20px;}
+.login .header{width: 100%; background: #fff}
+.loginWrap{width: 1200px; margin:0 auto; background: #fff}
+.loginCon{width: 100%; min-width: 1200px; background: url(../images/login_bg.jpg) no-repeat center top #fff; height: 750px; overflow: hidden;}
+.loginBox{width: 300px; margin-top: 110px; background: #fff; float: right; padding:42px 65px; text-align: center;}
+.loginBox .headImg{width: 106px; height: 106px; overflow: hidden; border:2px solid #e86d29; border-radius: 50%; margin:0 auto 24px;}
+.loginBox .headImg img{width: 106px;}
+.loginBox label{display: block; text-align: left; height: 41px; margin-bottom: 28px;}
+.loginBox label.user{background: url(../images/login_icon_07.png) no-repeat;}
+.loginBox label.password{background: url(../images/login_icon_10.png) no-repeat;}
+.loginBox label input{padding:0 10px 0 51px; width: 236px; height: 40px; font-size: 14px; border:1px solid #acacaf;}
+.loginBox label input:focus{border-color: #e86d29}
+.loginBox input[type=button]{width: 100%; height: 43px; background: #fe5c03; color: #fff; font-weight: bold; cursor: pointer; font-size: 16px;}
+.loginLink{text-align: right; padding-top: 22px;}
+.loginLink a{color: #79797b; font-size: 14px; margin-left: 26px;}
+.loginLink a:hover{color: #e7641c;}
+.forgetPassword{margin: 190px auto; padding-left: 100px; width: 428px; font-size: 14px; color: #444;}
+.forgetPassword p{background: url(../images/warning_icon_03.png) no-repeat left 2px; padding-left: 24px; line-height: 16px;}
+.forgetPassword p span{color: #e7641c;}
+.forgetPassword input{margin-top: 16px; width: 310px; padding:0 8px; border:1px solid #6e6e6e; height: 28px; font-size: 14px;}
+.forgetPassword input[type=submit]{width: 328px; background: #fe5c03; color: #fff; font-weight: bold; border:0; height: 36px; cursor: pointer;}
+.forgetPassword .identNumber input[type=text]{width: 180px}
+.forgetPassword .identNumber input[type=button]{width: 104px; background: #fe5c03; color: #fff; height: 30px; border:0; margin:0 26px; cursor: pointer;}
+.forgetPassword .identNumber input[type=button]:disabled{background: #777;}
+.forgetPassword .identNumber span{display: inline-block; width: 70px; height: 28px; line-height: 28px; text-align: center; border:1px solid #e86d29; color: #fe5c03}
+.forgetPassword input:focus{border-color: #e86d29}
+.loginHeader{max-width: 1080px;padding: 0 60px; margin: 0 auto;border-bottom: 2px solid #eee;}
+.loginHeader a{float:right;line-height:50px;margin-top:10px;color: #fe5c03;}
+.loginFooter{width: 1200px;position: fixed;left: 50%;margin-left: -600px;bottom: 0;padding:40px 0;border-top:2px solid #eee;text-align: center;color: #999;}
+
+.popupBg{position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 1000; background: rgba(0,0,0,.6);}
+.popupWrap{position: fixed; top: 50%; left: 50%; z-index: 1001; width: 640px; margin-left: -320px; background: #fff; font-size: 18px;}
+.popupWrap .title{height: 48px; line-height: 48px; background: #e7641c; padding-left: 18px; margin-bottom: 30px;}
+.popupWrap .title b{color: #fff; border-left: 2px solid #fff; color: #fff; padding-left: 5px;}
+.popupWrap table{margin:0 auto; width: 330px;}
+.popupWrap th,.popupWrap td{line-height: 44px;}
+.popupWrap th{vertical-align: text-top; color: #474646; text-align: right;}
+.popupWrap td{color: #969595;}
+.popupWrap input[type=text],.popupWrap select{width: 224px; height: 30px; border:1px solid #6e6e6e; padding:0 8px; color: #8c8b8b; font-size: 14px;}
+/*.popupWrap .stock span{font-style: normal; display: inline-block; padding:0 8px; color: #fff; background: #e7641c; margin:0 4px; font-size: 14px; line-height: normal;}
+.popupWrap .price{color: #e7641c}*/
+.popupWrap .buttonGroup{text-align: center; padding:36px 0;}
+.popupWrap .buttonGroup input{margin:0 34px; width: 112px; height: 32px; color: #fff; background: #e7641c; text-align: center; font-size: 18px; cursor: pointer; font-size: 16px;}
+.popupWrap .buttonGroup input.cancel{background: #949496}
+.confirmWrap h2{line-height: 20px; background: url(../images/confirm_title_bg_03.png) no-repeat center; text-align: center; font-size: 20px; font-weight: bold; color: #6f6e6e; padding:16px 0;}
+.confirmWrap h2.red{color: #e71329; font-weight: normal;}
+.confirmWrap p{width: 330px; margin: 0 auto; color: #6f6e6e;}
+.confirmWrap p.textC{text-align: center;}
+.confirmWrap p.conTit{text-align: center; color: #e7641c; font-size: 18px;}
+.popupWrap .enchashAccountForm{width: 430px; padding-left: 110px; margin:0 auto;}
+.popupWrap .enchashAccountForm input[type=text]{height: 24px; width: 180px;}
+.popupWrap .enchashAccountForm select{height: 26px; width: 200px;}
+.popupWrap .enchashAccountForm dl{overflow: hidden; padding:7px;}
+.popupWrap .enchashAccountForm dt,.popupWrap .enchashAccountForm dd{float: left; line-height: 28px; color: #3f3e3e}
+.popupWrap .enchashAccountForm dt{width: 100px;}
+.popupWrap .enchashAccountForm dd input[type=button]{width: 86px; height: 24px; color: #e7641c; border:1px solid #e7641c; cursor: pointer; font-size: 14px; margin-left: 10px;}
+.popupWrap p.warning{font-size: 12px; color: #be3f3f; padding: 3px 0; line-height: 16px;}
+.applySuccess p{width: 450px; line-height: 30px;}
+.applySuccess .textC{color: #e7641c; padding-bottom: 16px; font-size: 18px}
+.activationBox{width: 446px; margin-left: -223px; height: 566px; background: url(../images/activation_box.png) no-repeat;}
+.activationCon{width: 320px; margin:0 auto;}
+.activationBox .codeImg{padding:30px 0;}
+.activationBox .codeImg img{width: 100%;}
+.activationBox p{color: #e7641c; font-size: 14px; line-height: 26px;}
+.activationBox dl{padding-top: 10px;}
+.activationBox dt{color: #4b4a4a; padding-bottom: 4px;}
+.activationBox dd input[type=text]{width: 234px; height: 24px; border:1px solid #aaa;}
+.activationBox dd input[type=button]{width: 58px; height: 26px; border:1px solid #e7641c; color: #e7641c; margin-left: 10px; cursor: pointer;}
+.activationBox .buttonGroup{padding: 18px 0 0}
+.activationBox .buttonGroup input{width: 320px; margin: 0; font-size: 14px;}
+.smsAlert p{line-height: 30px; width: 390px;}
+.smsAlert p:first-child{color: #e7641c;}
+.importSuccess p{line-height: 30px; font-size: 14px; color: #949496; width: 440px;}
+.importSuccess .textC,.submitSuccess .textC{color: #e7641c; font-size: 16px}
+.goAuthentication p{width: 400px; padding:40px 0;}
+.popupBg,.popupWrap{display: none;}
+
+.addGroup table {margin: 0 auto;width:500px;}
+.addGroup select {width: 242px;}

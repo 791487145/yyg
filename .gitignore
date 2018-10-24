@@ -1,0 +1,12 @@
+/storage
+/public/uploads
+.idea/
+.DS_Store
+Homestead.yaml
+Homestead.json
+.env
+.project
+.buildpath
+.settings
+app/Lib/Wx/access_token.php
+app/Lib/Wx/jsapi_ticket.php
